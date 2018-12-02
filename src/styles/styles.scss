@@ -1,0 +1,90 @@
+@import 'variables';
+
+body {
+  background-color: $red;
+}
+code {
+  background-color: #D9D9D9;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+pre {
+  background-color: #333131;
+  border-radius: 5px;
+  color: beige;
+  padding: 5px;
+}
+
+pre > code {
+  background: transparent;  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(68, 132, 206);
+}
+
+blockquote {
+  border-left-color: rgb(68, 132, 206);
+  color: rgb(241, 159, 77);
+}
+
+.profile-img {
+  max-width: 100px;
+}
+
+
+
+
+/* ================= HOME ==================== */
+
+.home-banner {
+  height: 35vh;
+  // background-image: url('../assets/creative.jpg');
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-position: center;
+  background-color: $yellow;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+
+  h2 {
+    color: $purple;
+    margin: 0;
+    text-align: center;
+  }
+
+  .intro-button {
+    color: $purple;
+    border-color: $purple;
+    font-weight: bold;
+  }
+}
+
+.center-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
